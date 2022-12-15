@@ -181,6 +181,9 @@ h1{
 
 
 
-   /*Cards*/
+   /*Espacios*/
 
-   
+   #checkprom{
+    display:flex!important;
+    flex-direction:row!important;
+   }
