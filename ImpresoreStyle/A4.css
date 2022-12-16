@@ -9,11 +9,13 @@ body{
     width:210mm;
     height:290mm;
     border:0.01mm rgb(204, 204, 204) solid;
+    display:flex;
+    flex-direction:column;
 }
 
 .encabezado{
     height:80mm;
-    background-color:blue;
+    background-color:rgb(73, 73, 255);
     position:relative;
     display:flex;
     flex-direction:column;
@@ -26,7 +28,7 @@ h2{
     position:absolute;
     color:white;
     font-family: 'Open Sans', sans-serif;
-    font-weight:800;
+    font-weight:600;
     font-size:4.5rem;
     justify-self:center;
 
@@ -43,3 +45,57 @@ h2{
     margin-top:50mm;
     margin-left:95mm;
 }
+
+
+#descripcion{
+    display:flex;
+    flex-direction:column;
+    color:rgb(73, 73, 255);
+    font-family: 'Open Sans', sans-serif;
+    font-weight:700; 
+    font-size:xx-large;
+    margin-top:10px;
+    width:150mm;
+    height:100mm;
+    align-items: center;
+    justify-content: center;
+    margin-top:100px;
+    margin-left:30mm;
+    margin-right:30mm;
+}
+
+#descripcion h3{
+    align-self:center;
+}
+
+#precio{
+    display:flex;
+    flex-direction:column;
+    color:rgb(73, 73, 255);
+    font-family: 'Open Sans', sans-serif;
+    font-weight:700; 
+    font-size:5rem;
+    margin-top:-60px;
+    width:150mm;
+    height:100mm;
+    align-items: center;
+    justify-content: center;
+    margin-left:30mm;
+    margin-right:30mm;
+}
+
+
+#master{
+    display:flex;
+    flex-direction:column;
+    margin-top:-100px;
+    align-items: flex-end;
+    padding-right:120px;
+}
+
+#master h5{
+    font-size:2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:700; 
+}
+
