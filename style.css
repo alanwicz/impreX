@@ -124,7 +124,7 @@ h1{
     margin:30px!important;
    }
    
-   button {
+   .buttoncs {
     text-decoration: none!important;
     position: relative!important;
     border: none!important;
@@ -141,7 +141,7 @@ h1{
     z-index: 1;
    }
    
-   button:hover {
+   .buttoncs:hover {
     animation: ani 8s linear infinite;
     border: none;
    }
@@ -156,7 +156,7 @@ h1{
     }
    }
    
-   button:before {
+   .buttoncs:before {
     content: '';
     position: absolute;
     top: -5px;
@@ -170,11 +170,11 @@ h1{
     transition: 1s;
    }
    
-   button:hover::before {
+   .buttoncs:hover::before {
     filter: blur(20px);
    }
    
-   button:active {
+   .buttoncs:active {
     background: linear-gradient(32deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
    }
 
