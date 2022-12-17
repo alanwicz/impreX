@@ -3,8 +3,14 @@
     padding:0;
 }
 
-body{
+#Home{
     background-color:#2c3333!important;
+    height: 100vh;;
+}
+
+#contenido{
+  background-color:#2c3333!important;
+  height: 100vh;;
 }
 
 #Home{
