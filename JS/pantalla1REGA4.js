@@ -5,7 +5,7 @@ const visorinputsprom = document.getElementById('visorinputsprom');
 
 
 //Creamos los inputs para ingresar texto 
-const A4Prom = document.getElementById('A4Prom')
+const A4Reg = document.getElementById('A4Reg')
 
 
 //Cambiamos display
@@ -14,7 +14,7 @@ const A4Prom = document.getElementById('A4Prom')
 let contador = 1;
 
 
-A4Prom.addEventListener('click', (e) => {
+A4Reg.addEventListener('click', (e) => {
     e.preventDefault()
      
     let nuevoDivProm = document.createElement('div');
