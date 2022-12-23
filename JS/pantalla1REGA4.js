@@ -186,7 +186,7 @@ const buttonPrep = document.getElementById('prepararCartel');
                       <div class="triangulo-equilatero-bottom"></div>
                    </div>
                    <div id="funcional">
-                   <div id="descripcion" ><h3>${descripcion}</h3></div>
+                   <div id="descripcion" ><h3 class="text-center;">${descripcion}</h3></div>
                    <div id="precio"><h4>$${precio}</h4></div>       
                    <div id="master"><h5>Master ${master}</h5></div>
               </div>
