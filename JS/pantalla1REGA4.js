@@ -1,7 +1,7 @@
 //Promociones
 
 //Div para visor de inputs al presionar boton A4
-const visorinputsprom = document.getElementById('visorinputsprom');
+const visorinputsreg = document.getElementById('visorinputsreg');
 
 
 //Creamos los inputs para ingresar texto 
@@ -12,15 +12,16 @@ const A4Reg = document.getElementById('A4Reg')
 
 
 let contador = 1;
+let contarA4Reg = 0;
 
 
 A4Reg.addEventListener('click', (e) => {
     e.preventDefault()
-     
+     if (contador713===0  && contarA4Reg === 0) {
     let nuevoDivProm = document.createElement('div');
     nuevoDivProm.innerHTML = `
     <div id="inputsimpresion${contador}" style="margin-top:10px;">
-    <button type="button" class="btn-close" id="cierre-impresion" ></button>
+    <button type="button" class="btn-close" id="cierre-impresionA4Reg" ></button>
 
      <h6 class="text-center">Completar texto</h6>
     <div class="input-group mb-3">
@@ -38,30 +39,36 @@ A4Reg.addEventListener('click', (e) => {
 </div>
 
 <script>
- const buttonPrep = document.getElementById('prepararCartel');
-  function quitarDatos() {
-    alert("Yo");
-
-  }
-
-buttonPrep.addEventListener('click', quitarDatos);
+ 
 
 </script>
 </div>
    
     `
-    visorinputsprom.appendChild(nuevoDivProm);
-    buttonPrep.style.display = 'block';
-   console.log("Hola");
+   
+  
+    visorinputsreg.appendChild(nuevoDivProm);
+    //Obtengo boton para preparar datos
+    const buttonPrepA4Reg = document.getElementById('prepararCartelA4Reg');
+    const buttonCloseA4Reg = document.getElementById("cierre-impresionA4Reg");
+    buttonPrepA4Reg.style.display = 'block';
    contador = contador + 1;
-})
+   contarA4Reg = contarA4Reg+1;
+}
+else{
+  alert("Solo podes realizar un ingreso por vez");}}
 
+)
 
+//Obtenemos boton y funcion para quitar datos y crear carteleria en A4 Regular
 
+const buttonCloseA4Reg = document.getElementById("cierre-impresionA4Reg");
+const buttonPrepA4Reg = document.getElementById('prepararCartelA4Reg');
+function buttonCerrar(){
+  alert("HOla");
+}
 
-
-const buttonPrep = document.getElementById('prepararCartel');
-               function quitarDatos() {
+               function quitarDatosa4Reg() {
                 const descripcion = document.getElementById('inputDescripcion').value;  
                 const precio = document.getElementById('inputPrecio').value;
                 const master = document.getElementById('inputMaster').value; 
@@ -196,8 +203,15 @@ const buttonPrep = document.getElementById('prepararCartel');
                 }
                  
              
-buttonPrep.addEventListener('click', quitarDatos);
+                buttonPrepA4Reg.addEventListener('click', quitarDatosa4Reg);
 
 
+
+
+
+buttonCloseA4Reg.addEventListener('click' , buttonCerrar);
+function buttonCerrar(){
+  alert("Hola");
+}   
 
 

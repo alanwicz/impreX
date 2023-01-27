@@ -8,8 +8,14 @@ button.addEventListener('click', (e) => {
         username: username.value,
         password: password.value
     }
-    
-    console.log(data)
-
-    window.location = "pantalla1.html";
+       /*console.log((data.username));*/
+   
+       if (((data.username) === "supervision") && ((data.password) === "supervision")) {
+        window.location = "pantalla1.html";
+        
+       }
+       else {
+        alert("Contraseña o password incorrecto/a")
+    }
+   /* */
 })

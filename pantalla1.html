@@ -29,16 +29,29 @@
           <div id="size-button">
           <button id="A4Reg" type="button" class="btn btn-primary">A4</button>
           
-            <button id="713Reg" type="button" class="btn btn-primary">7 x 13</button>
-            
+            <button id="Reg713" type="button" class="btn btn-primary">7 x 13</button>
+             <!--Inicio Inputs-->
+             
+
+
+
+
+               <!--Fin Inputs-->
               <button id="913Reg" type="button" class="btn btn-primary">9 x 13</button> </div>
-              <div id="visorinputsprom">  </div>
-        
+              
+              <div id="visorinputsreg"></div>
+              <div id="cantidadreg"></div>
+            <button id="btnInputsReg" class="btn btn-primary" style="display:none; margin-top: 20px;">Crear Entradas de Datos</button> 
         
          
-          <button style="display:none;" id="prepararCartel" type="button" class="btn btn-primary">
+          <button style="display:none;" id="prepararCartelA4Reg" type="button" class="btn btn-primary">
             Preparar Cartel
-            </button> 
+            </button>
+
+            <button style="display:none;" id="prepararCartel713Reg" type="button" class="btn btn-primary">
+              Preparar Cartel
+              </button>  
+            
           </div>
 
        </div>
@@ -62,8 +75,13 @@
       
   </section> </section> 
   <div id="impresReg"></div>
+  <div id="impresReg713"></div>
   
-
+  <div id="inputs713" style="display:none;">
+  <label>¿Cuantos carteles queres crear?</label>
+  <input id="numbersInp" type="number">
+  <button id="crearInputs" class="btn btn-primary">Crear Entradas</button>
+</div>
 
 
   
