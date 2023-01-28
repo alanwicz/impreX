@@ -1,14 +1,49 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="/ImpresoreStyle/A4.css">
-    <title>Document</title>
-</head>
-<body> <section style="display:flex;" id="impresReg">
+
+
+
+//Creamos los inputs para ingresar texto 
+
+const buttonPrep713Prom = document.getElementById('prepararCartel713Prom');
+
+
+
+
+
+               function quitarDatos713Prom() {
+                let Descripcion713Prom1 = document.getElementById('Descripcion713Prom1').value;  
+                let Precio713Prom1 = document.getElementById('Precio713Prom1').value;
+                let Desuento713Prom1 = document.getElementById('Descuento713Prom1').value;
+                let Master713Prom1 = document.getElementById('Master713Prom1').value; 
+                
+                let Descripcion713Prom2 = document.getElementById('Descripcion713Prom2').value;  
+                let Precio713Prom2 = document.getElementById('Precio713Prom2').value;
+                let Desuento713Prom2 = document.getElementById('Descuento713Prom2').value;
+                let Master713Prom2 = document.getElementById('Master713Prom2').value; 
+
+                let Descripcion713Prom3 = document.getElementById('Descripcion713Prom3').value;  
+                let Precio713Prom3 = document.getElementById('Precio713Prom3').value;
+                let Desuento713Prom3 = document.getElementById('Descuento713Prom3').value;
+                let Master713Prom3 = document.getElementById('Master713Prom3').value; 
+                 
+
+                let Descripcion713Prom4 = document.getElementById('Descripcion713Prom4').value;  
+                let Precio713Prom4 = document.getElementById('Precio713Prom4').value;
+                let Desuento713Prom4 = document.getElementById('Descuento713Prom4').value;
+                let Master713Prom4 = document.getElementById('Master713Prom4').value; 
+
+
+
+
+                const contenido = document.getElementById('contenido'); 
+                contenido.style.display = 'none';   
+             const impresProm713 = document.getElementById('impresProm713');
+             const crearDivProm713 = document.createElement('div');
+              
+
+            
+             crearDivProm713.innerHTML = `
+               
+             <section style="display:flex;" id="impresReg">
    
     <!--Imprimibles 1 Columna-->
     <div id="primera-Columna">
@@ -313,6 +348,15 @@
 
 
 </section>
-<script src="/JS/pantalla1.js" ></script>
-</body>
-</html>
+
+               `
+               impresProm713.appendChild(crearDivProm713);
+               console.log("Hola");
+                  
+                }
+                 
+             
+                buttonPrep713Prom.addEventListener('click', quitarDatos713Prom);
+
+
+
