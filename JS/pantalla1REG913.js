@@ -1,43 +1,39 @@
-
-
-
 //Creamos los inputs para ingresar texto 
-const Reg713 = document.getElementById('Reg713')
-const buttonPrep713Reg = document.getElementById('prepararCartel713Reg');
+const Reg913 = document.getElementById('Reg913')
+const buttonPrep913Reg = document.getElementById('prepararCartel913Reg');
 
 
 
 
 
-               function quitarDatos713Reg() {
-                let Descripcion713Reg1 = document.getElementById('Descripcion713Reg1').value;  
-                let Precio713Reg1 = document.getElementById('Precio713Reg1').value;
-                let Master713Reg1 = document.getElementById('Master713Reg1').value; 
+               function quitarDatos913Reg() {
+                let Descripcion913Reg1 = document.getElementById('Descripcion913Reg1').value;  
+                let Precio913Reg1 = document.getElementById('Precio913Reg1').value;
+                let Master913Reg1 = document.getElementById('Master913Reg1').value; 
                 
-                let Descripcion713Reg2 = document.getElementById('Descripcion713Reg2').value;  
-                let Precio713Reg2 = document.getElementById('Precio713Reg2').value;
-                let Master713Reg2 = document.getElementById('Master713Reg2').value; 
+                let Descripcion913Reg2 = document.getElementById('Descripcion913Reg2').value;  
+                let Precio913Reg2 = document.getElementById('Precio913Reg2').value;
+                let Master913Reg2 = document.getElementById('Master913Reg2').value; 
 
-                let Descripcion713Reg3 = document.getElementById('Descripcion713Reg3').value;  
-                let Precio713Reg3 = document.getElementById('Precio713Reg3').value;
-                let Master713Reg3 = document.getElementById('Master713Reg3').value; 
+                let Descripcion913Reg3 = document.getElementById('Descripcion913Reg3').value;  
+                let Precio913Reg3 = document.getElementById('Precio913Reg3').value;
+                let Master913Reg3 = document.getElementById('Master913Reg3').value; 
                  
 
-                let Descripcion713Reg4 = document.getElementById('Descripcion713Reg4').value;  
-                let Precio713Reg4 = document.getElementById('Precio713Reg4').value;
-                let Master713Reg4 = document.getElementById('Master713Reg4').value; 
-
-
+                let Descripcion913Reg4 = document.getElementById('Descripcion913Reg4').value;  
+                let Precio913Reg4 = document.getElementById('Precio913Reg4').value;
+                let Master913Reg4 = document.getElementById('Master913Reg4').value; 
+9
 
 
                 const contenido = document.getElementById('contenido'); 
                 contenido.style.display = 'none';   
-             const impresReg713 = document.getElementById('impresReg713');
-             const crearDivReg713 = document.createElement('div');
+             const impresReg913 = document.getElementById('impresReg913');
+             const crearDivReg913 = document.createElement('div');
               
 
             
-             crearDivReg713.innerHTML = `
+             crearDivReg913.innerHTML = `
                
              <section style="display:flex;" id="">
    
@@ -45,17 +41,17 @@ const buttonPrep713Reg = document.getElementById('prepararCartel713Reg');
     <div id="primera-Columna">
     <!--Imprimible 1-->
 
-    <div id="areaimprimible713">
+    <div id="areaimprimible913">
      <style>#impresReg{
         display:none;
 
        
     }
     
-    #areaimprimible713{
+    #areaimprimible913{
         margin-left:25px;
         width:130mm;
-        height:75mm;
+        height:90mm;
         border:0.01mm rgb(204, 204, 204) solid;
         display:flex;
        flex-direction:row;
@@ -64,7 +60,7 @@ const buttonPrep713Reg = document.getElementById('prepararCartel713Reg');
     }
     
     .encabezado{
-        height:75mm;
+        height:90mm;
         width:50mm;
         background-color:rgb(73, 73, 255);
         display:flex;
@@ -140,7 +136,7 @@ const buttonPrep713Reg = document.getElementById('prepararCartel713Reg');
         color:rgb(73, 73, 255);
         font-family: 'Open Sans', sans-serif;
         font-weight:700; 
-        font-size:1.5rem;
+        font-size:2rem;
         align-items: center;
         justify-content: center;
     }
@@ -172,16 +168,16 @@ const buttonPrep713Reg = document.getElementById('prepararCartel713Reg');
                      <div class="triangulo-equilatero-bottom"></div></div>
 
          <div id="funcional">
-         <div id="descripcion" ><h3>${Descripcion713Reg1}</h3></div>
-         <div id="precio"><h4>$ ${Precio713Reg1}</h4></div>       
-         <div id="master"><h5>Master ${Master713Reg1}</h5></div>
+         <div id="descripcion" ><h3>${Descripcion913Reg1}</h3></div>
+         <div id="precio"><h4>$ ${Precio913Reg1}</h4></div>       
+         <div id="master"><h5>Master ${Master913Reg1}</h5></div>
     </div>
  </div>
     <!--Fin Imprimible 1-->
 
     <!--Imprimible 2-->
 
-    <div id="areaimprimible713">
+    <div id="areaimprimible913">
         <style>#impresReg{
            width:297mm;
            height:210mm;
@@ -192,10 +188,10 @@ const buttonPrep713Reg = document.getElementById('prepararCartel713Reg');
           
        }
        
-       #areaimprimible713{
+       #areaimprimible913{
            margin-left:25px;
            width:130mm;
-           height:75mm;
+           height:90mm;
            border:0.01mm rgb(204, 204, 204) solid;
            display:flex;
           flex-direction:row;
@@ -204,7 +200,7 @@ const buttonPrep713Reg = document.getElementById('prepararCartel713Reg');
        }
        
        .encabezado{
-           height:75mm;
+           height:90mm;
            width:50mm;
            background-color:rgb(73, 73, 255);
            display:flex;
@@ -277,7 +273,7 @@ const buttonPrep713Reg = document.getElementById('prepararCartel713Reg');
            color:rgb(73, 73, 255);
            font-family: 'Open Sans', sans-serif;
            font-weight:700; 
-           font-size:1.5rem;
+           font-size:2rem;
            align-items: center;
            justify-content: center;
        }
@@ -298,9 +294,9 @@ const buttonPrep713Reg = document.getElementById('prepararCartel713Reg');
                         <div class="triangulo-equilatero-bottom"></div></div>
    
             <div id="funcional">
-            <div id="descripcion"><h3> ${Descripcion713Reg2} </h3></div>
-            <div id="precio"><h4>$ ${Precio713Reg2}</h4></div>       
-            <div id="master"><h5> Master ${Master713Reg2}</h5></div>
+            <div id="descripcion"><h3> ${Descripcion913Reg2} </h3></div>
+            <div id="precio"><h4>$ ${Precio913Reg2}</h4></div>       
+            <div id="master"><h5> Master ${Master913Reg2}</h5></div>
        </div>
     </div>
        <!--Fin Imprimible 2-->
@@ -319,7 +315,7 @@ const buttonPrep713Reg = document.getElementById('prepararCartel713Reg');
     <div id="primera-Columna">
         <!--Imprimible 3-->
     
-        <div id="areaimprimible713">
+        <div id="areaimprimible913">
          <style>#impresReg{
             width:297mm;
             height:210mm;
@@ -330,10 +326,10 @@ const buttonPrep713Reg = document.getElementById('prepararCartel713Reg');
            
         }
         
-        #areaimprimible713{
+        #areaimprimible913{
             margin-left:25px;
             width:130mm;
-            height:75mm;
+            height:90mm;
             border:0.01mm rgb(204, 204, 204) solid;
             display:flex;
            flex-direction:row;
@@ -342,7 +338,7 @@ const buttonPrep713Reg = document.getElementById('prepararCartel713Reg');
         }
         
         .encabezado{
-            height:75mm;
+            height:90mm;
             width:50mm;
             background-color:rgb(73, 73, 255);
             display:flex;
@@ -415,7 +411,7 @@ const buttonPrep713Reg = document.getElementById('prepararCartel713Reg');
             color:rgb(73, 73, 255);
             font-family: 'Open Sans', sans-serif;
             font-weight:700; 
-            font-size:1.5rem;
+            font-size:2rem;
             align-items: center;
             justify-content: center;
         }
@@ -435,16 +431,16 @@ const buttonPrep713Reg = document.getElementById('prepararCartel713Reg');
                          <div class="triangulo-equilatero-bottom"></div></div>
     
              <div id="funcional">
-             <div id="descripcion" ><h3>${Descripcion713Reg3}</h3></div>
-             <div id="precio"><h4>$ ${Precio713Reg3}</h4></div>       
-             <div id="master"><h5>Master ${Master713Reg3}</h5></div>
+             <div id="descripcion" ><h3>${Descripcion913Reg3}</h3></div>
+             <div id="precio"><h4>$ ${Precio913Reg3}</h4></div>       
+             <div id="master"><h5>Master ${Master913Reg3}</h5></div>
         </div>
      </div>
         <!--Fin Imprimible 3-->
     
         <!--Imprimible 4-->
     
-        <div id="areaimprimible713">
+        <div id="areaimprimible913">
             <style>#impresReg{
                width:297mm;
                height:210mm;
@@ -455,10 +451,10 @@ const buttonPrep713Reg = document.getElementById('prepararCartel713Reg');
               
            }
            
-           #areaimprimible713{
+           #areaimprimible913{
                margin-left:25px;
                width:130mm;
-               height:75mm;
+               height:90mm;
                border:0.01mm rgb(204, 204, 204) solid;
                display:flex;
               flex-direction:row;
@@ -467,7 +463,7 @@ const buttonPrep713Reg = document.getElementById('prepararCartel713Reg');
            }
            
            .encabezado{
-               height:75mm;
+               height:90mm;
                width:50mm;
                background-color:rgb(73, 73, 255);
                display:flex;
@@ -527,13 +523,14 @@ const buttonPrep713Reg = document.getElementById('prepararCartel713Reg');
                align-items: center;
                justify-content: center;
                z-index:3;
-               margin-left: 80px;
 
            }
            
            #descripcion h3{
                align-self:center;
                font-size:0,5rem;
+               margin-top: 60px;
+               margin-left: 20px;
            }
            
            #precio{   
@@ -542,11 +539,14 @@ const buttonPrep713Reg = document.getElementById('prepararCartel713Reg');
                color:rgb(73, 73, 255);
                font-family: 'Open Sans', sans-serif;
                font-weight:700; 
-               font-size:1.5rem;
+               font-size:2rem;
                align-items: center;
                justify-content: center;
            }
            
+           #precio h4{
+            font-size:2.5rem;
+           }
             
            
            #master h5{
@@ -562,9 +562,9 @@ const buttonPrep713Reg = document.getElementById('prepararCartel713Reg');
                             <div class="triangulo-equilatero-bottom"></div></div>
        
                 <div id="funcional">
-                <div id="descripcion" ><h3>${Descripcion713Reg4}</h3></div>
-                <div id="precio"><h4>$ ${Precio713Reg4}</h4></div>       
-                <div id="master"><h5>Master ${Master713Reg4}</h5></div>
+                <div id="descripcion" ><h3>${Descripcion913Reg4}</h3></div>
+                <div id="precio"><h4>$ ${Precio913Reg4}</h4></div>       
+                <div id="master"><h5>Master ${Master913Reg4}</h5></div>
            </div>
         </div>
            <!--Fin Imprimible 4-->
@@ -582,12 +582,12 @@ const buttonPrep713Reg = document.getElementById('prepararCartel713Reg');
             
 
                `
-               impresReg713.appendChild(crearDivReg713);
+               impresReg913.appendChild(crearDivReg913);
                   
                 }
                  
              
-buttonPrep713Reg.addEventListener('click', quitarDatos713Reg);
+buttonPrep913Reg.addEventListener('click', quitarDatos913Reg);
 
 
 

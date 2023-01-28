@@ -8,66 +8,13 @@ const visorinputsreg = document.getElementById('visorinputsreg');
 const A4Reg = document.getElementById('A4Reg')
 
 
-//Cambiamos display
-
-
-let contador = 1;
-let contarA4Reg = 0;
-
-
-A4Reg.addEventListener('click', (e) => {
-    e.preventDefault()
-     if (contador713===0  && contarA4Reg === 0) {
-    let nuevoDivProm = document.createElement('div');
-    nuevoDivProm.innerHTML = `
-    <div id="inputsimpresion${contador}" style="margin-top:10px;">
-    <button type="button" class="btn-close" id="cierre-impresionA4Reg" ></button>
-
-     <h6 class="text-center">Completar texto</h6>
-    <div class="input-group mb-3">
-
-    <span class="input-group-text" id="inputGroup-sizing-default">Descripción</span>
-    <input id="inputDescripcion" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-  </div>
-  <div class="input-group mb-3">
-  <span class="input-group-text" id="inputGroup-sizing-default">Precio </span>
-  <input id="inputPrecio" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-</div>
-<div class="input-group mb-3">
-  <span class="input-group-text" id="inputGroup-sizing-default">Master </span>
-  <input id="inputMaster" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-</div>
-
-<script>
- 
-
-</script>
-</div>
-   
-    `
-   
-  
-    visorinputsreg.appendChild(nuevoDivProm);
-    //Obtengo boton para preparar datos
-    const buttonPrepA4Reg = document.getElementById('prepararCartelA4Reg');
-    const buttonCloseA4Reg = document.getElementById("cierre-impresionA4Reg");
-    buttonPrepA4Reg.style.display = 'block';
-   contador = contador + 1;
-   contarA4Reg = contarA4Reg+1;
-}
-else{
-  alert("Solo podes realizar un ingreso por vez");}}
-
-)
-
 //Obtenemos boton y funcion para quitar datos y crear carteleria en A4 Regular
 
 const buttonCloseA4Reg = document.getElementById("cierre-impresionA4Reg");
-const buttonPrepA4Reg = document.getElementById('prepararCartelA4Reg');
-function buttonCerrar(){
-  alert("HOla");
-}
 
+
+
+const buttonPrepA4Reg = document.getElementById('prepararCartelA4Reg');
                function quitarDatosa4Reg() {
                 const descripcion = document.getElementById('inputDescripcion').value;  
                 const precio = document.getElementById('inputPrecio').value;
@@ -203,15 +150,7 @@ function buttonCerrar(){
                 }
                  
              
-                buttonPrepA4Reg.addEventListener('click', quitarDatosa4Reg);
+buttonPrepA4Reg.addEventListener('click', quitarDatosa4Reg);
 
-
-
-
-
-buttonCloseA4Reg.addEventListener('click' , buttonCerrar);
-function buttonCerrar(){
-  alert("Hola");
-}   
 
 
