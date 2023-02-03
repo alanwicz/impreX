@@ -3,97 +3,97 @@
 
 //Creamos los inputs para ingresar texto 
 
-const buttonPrep713Prom = document.getElementById('prepararCartel713Prom');
+const buttonPrep913Prom = document.getElementById('prepararCartel913Prom');
 
 
 
 
 
-               function quitarDatos713Prom() {
-                let Descripcion713Prom1 = document.getElementById('Descripcion713Prom1').value;  
-                let Precio713Prom1 = document.getElementById('Precio713Prom1').value;
-                let Descuento713Prom1 = document.getElementById('Descuento713Prom1').value;
-                let Master713Prom1 = document.getElementById('Master713Prom1').value; 
+               function quitarDatos913Prom() {
+                let Descripcion913Prom1 = document.getElementById('Descripcion913Prom1').value;  
+                let Precio913Prom1 = document.getElementById('Precio913Prom1').value;
+                let Descuento913Prom1 = document.getElementById('Descuento913Prom1').value;
+                let Master913Prom1 = document.getElementById('Master913Prom1').value; 
                 
-                let Descripcion713Prom2 = document.getElementById('Descripcion713Prom2').value;  
-                let Precio713Prom2 = document.getElementById('Precio713Prom2').value;
-                let Descuento713Prom2 = document.getElementById('Descuento713Prom2').value;
-                let Master713Prom2 = document.getElementById('Master713Prom2').value; 
+                let Descripcion913Prom2 = document.getElementById('Descripcion913Prom2').value;  
+                let Precio913Prom2 = document.getElementById('Precio913Prom2').value;
+                let Descuento913Prom2 = document.getElementById('Descuento913Prom2').value;
+                let Master913Prom2 = document.getElementById('Master913Prom2').value; 
 
-                let Descripcion713Prom3 = document.getElementById('Descripcion713Prom3').value;  
-                let Precio713Prom3 = document.getElementById('Precio713Prom3').value;
-                let Descuento713Prom3 = document.getElementById('Descuento713Prom3').value;
-                let Master713Prom3 = document.getElementById('Master713Prom3').value; 
+                let Descripcion913Prom3 = document.getElementById('Descripcion913Prom3').value;  
+                let Precio913Prom3 = document.getElementById('Precio913Prom3').value;
+                let Descuento913Prom3 = document.getElementById('Descuento913Prom3').value;
+                let Master913Prom3 = document.getElementById('Master913Prom3').value; 
                  
 
-                let Descripcion713Prom4 = document.getElementById('Descripcion713Prom4').value;  
-                let Precio713Prom4 = document.getElementById('Precio713Prom4').value;
-                let Descuento713Prom4 = document.getElementById('Descuento713Prom4').value;
-                let Master713Prom4 = document.getElementById('Master713Prom4').value; 
+                let Descripcion913Prom4 = document.getElementById('Descripcion913Prom4').value;  
+                let Precio913Prom4 = document.getElementById('Precio913Prom4').value;
+                let Descuento913Prom4 = document.getElementById('Descuento913Prom4').value;
+                let Master913Prom4 = document.getElementById('Master913Prom4').value; 
 
 
-                 let  precioProm713 = (Precio713Prom1 - ((Precio713Prom1*Descuento713Prom1)/100));
-                 let  precioProm7132 = (Precio713Prom2 - ((Precio713Prom2*Descuento713Prom2)/100));
-                 let  precioProm7133 = (Precio713Prom3 - ((Precio713Prom3*Descuento713Prom3)/100));
-                 let  precioProm7134  = (Precio713Prom4 - ((Precio713Prom4*Descuento713Prom4)/100));
+                 let  precioProm913 = (Precio913Prom1 - ((Precio913Prom1*Descuento913Prom1)/100));
+                 let  precioProm9132 = (Precio913Prom2 - ((Precio913Prom2*Descuento913Prom2)/100));
+                 let  precioProm9133 = (Precio913Prom3 - ((Precio913Prom3*Descuento913Prom3)/100));
+                 let  precioProm9134  = (Precio913Prom4 - ((Precio913Prom4*Descuento913Prom4)/100));
 
                 const contenido = document.getElementById('contenido'); 
                 contenido.style.display = 'none';   
-             const impresProm713 = document.getElementById('impresProm713');
-             const crearDivProm713 = document.createElement('div');
+             const impresProm913 = document.getElementById('impresProm913');
+             const crearDivProm913 = document.createElement('div');
               
 
             
-             crearDivProm713.innerHTML = `
+             crearDivProm913.innerHTML = `
                
              <section style="display:flex;" id="impresProm">
    
     <!--Imprimibles 1 Columna-->
     <div id="primera-Columna">
     <!--Imprimible 1-->
-    <div id="areaimprimible713">
-        <div class="encabezado"> <div class="porcentaje713Prom"><h2 style="
+    <div id="areaimprimible913">
+        <div class="encabezado"> <div class="porcentaje913Prom"><h2 style="
             margin-top: 5px;
-        ">${Descuento713Prom1}</h2><div class="porcentajeOFF713"><h3 style="font-size:3rem;margin:0;">%</h3><h3>OFF</h3></div></div>
+        ">${Descuento913Prom1}</h2><div class="porcentajeOFF913"><h3 style="font-size:3rem;margin:0;">%</h3><h3>OFF</h3></div></div>
          
                      <div class="triangulo-equilatero-bottom"></div></div>
 
          <div id="funcional">
-         <div id="descripcion"><h3>${Descripcion713Prom1}
+         <div id="descripcion"><h3>${Descripcion913Prom1}
          </h3></div>
          <div id="precio" style="
          margin-top: 10px;
-     "><div><p >Precio Anterior</p><h4 class="precioAnterior713" style="
+     "><div><p >Precio Anterior</p><h4 class="precioAnterior913" style="
             margin-bottom: 0px;
-        " >$${Precio713Prom1}</h4></div>
-            <div><p style="color:rgb(73, 73, 255);">Precio Promoción</p><h4 class="precioPromocion713" style="
+        " >$${Precio913Prom1}</h4></div>
+            <div><p style="color:rgb(73, 73, 255);">Precio Promoción</p><h4 class="precioPromocion913" style="
                 margin-bottom: 0px;
-            ">$${precioProm713}</h4></div></div>       
-         <div id="master"><h5>Master ${Master713Prom1}</h5></div>
+            ">$${precioProm913}</h4></div></div>       
+         <div id="master"><h5>Master ${Master913Prom1}</h5></div>
     </div>
  </div>
         <!--Fin Imprimible 1-->
 
         <!--Imprimible 2-->
-        <div id="areaimprimible713">
-            <div class="encabezado"> <div class="porcentaje713Prom"><h2 style="
+        <div id="areaimprimible913">
+            <div class="encabezado"> <div class="porcentaje913Prom"><h2 style="
                 margin-top: 5px;
-            ">${Descuento713Prom2}</h2><div class="porcentajeOFF713"><h3 style="font-size:3rem;margin:0;">%</h3><h3>OFF</h3></div></div>
+            ">${Descuento913Prom2}</h2><div class="porcentajeOFF913"><h3 style="font-size:3rem;margin:0;">%</h3><h3>OFF</h3></div></div>
              
                          <div class="triangulo-equilatero-bottom"></div></div>
     
              <div id="funcional">
-             <div id="descripcion"><h3>${Descripcion713Prom2} 
+             <div id="descripcion"><h3>${Descripcion913Prom2} 
              </h3></div>
              <div id="precio" style="
              margin-top: 10px;
-         "><div><p>Precio Anterior</p><h4 class="precioAnterior713" style="
+         "><div><p>Precio Anterior</p><h4 class="precioAnterior913" style="
                 margin-bottom: 0px;
-            " >$${Precio713Prom2}</h4></div>
-                <div><p style="color:rgb(73, 73, 255);">Precio Promoción</p><h4 class="precioPromocion713" style="
+            " >$${Precio913Prom2}</h4></div>
+                <div><p style="color:rgb(73, 73, 255);">Precio Promoción</p><h4 class="precioPromocion913" style="
                     margin-bottom: 0px;
-                ">$${precioProm7132}</h4></div></div>       
-             <div id="master"><h5>Master ${Master713Prom2}</h5></div>
+                ">$${precioProm9132}</h4></div></div>       
+             <div id="master"><h5>Master ${Master913Prom2}</h5></div>
         </div>
      </div>
        <!--Fin Imprimible 2-->
@@ -110,25 +110,25 @@ const buttonPrep713Prom = document.getElementById('prepararCartel713Prom');
     <div id="primera-Columna">
         <!--Imprimible 3-->
     
-        <div id="areaimprimible713">
-            <div class="encabezado"> <div class="porcentaje713Prom" style="z-index:3;"><h2 style="
+        <div id="areaimprimible913">
+            <div class="encabezado"> <div class="porcentaje913Prom" style="z-index:3;"><h2 style="
                 margin-top: 5px;
-            ">${Descuento713Prom3}</h2><div class="porcentajeOFF713" ><h3 style="font-size:3rem;margin:0;">%</h3><h3>OFF</h3></div></div>
+            ">${Descuento913Prom3}</h2><div class="porcentajeOFF913" ><h3 style="font-size:3rem;margin:0;">%</h3><h3>OFF</h3></div></div>
              
                          <div class="triangulo-equilatero-bottom"></div></div>
     
              <div id="funcional">
-             <div id="descripcion"><h3>${Descripcion713Prom3}
+             <div id="descripcion"><h3>${Descripcion913Prom3}
              </h3></div>
              <div id="precio" style="
              margin-top: 10px;
-         "><div><p>Precio Anterior</p><h4 class="precioAnterior713" style="
+         "><div><p>Precio Anterior</p><h4 class="precioAnterior913" style="
                 margin-bottom: 0px;
-            " >$${Precio713Prom3}</h4></div>
-                <div><p style="color:rgb(73, 73, 255);">Precio Promoción</p><h4 class="precioPromocion713" style="
+            " >$${Precio913Prom3}</h4></div>
+                <div><p style="color:rgb(73, 73, 255);">Precio Promoción</p><h4 class="precioPromocion913" style="
                     margin-bottom: 0px;
-                ">$${precioProm7133}</h4></div></div>       
-             <div id="master"><h5>Master ${Master713Prom3}</h5></div>
+                ">$${precioProm9133}</h4></div></div>       
+             <div id="master"><h5>Master ${Master913Prom3}</h5></div>
         </div>
      </div>
         <!--Fin Imprimible 3-->
@@ -143,10 +143,10 @@ const buttonPrep713Prom = document.getElementById('prepararCartel713Prom');
 
           
            
-           #areaimprimible713{
+           #areaimprimible913{
                margin-left:25px;
                width:130mm;
-               height:75mm;
+               height:90mm;
                border:0.01mm rgb(204, 204, 204) solid;
                display:flex;
               flex-direction:row;
@@ -155,7 +155,7 @@ const buttonPrep713Prom = document.getElementById('prepararCartel713Prom');
            }
            
            .encabezado{
-               height:75mm;
+               height:90mm;
                width:50mm;
                background-color:rgb(255, 15, 15);
                display:flex;
@@ -180,7 +180,7 @@ const buttonPrep713Prom = document.getElementById('prepararCartel713Prom');
                position:absolute;
            }
 
-           .porcentaje713Prom{
+           .porcentaje913Prom{
             display:flex;
             z-index:2;
             width:50mm;
@@ -188,7 +188,7 @@ const buttonPrep713Prom = document.getElementById('prepararCartel713Prom');
   
            }
 
-           .porcentaje713Prom h2{
+           .porcentaje913Prom h2{
               
     margin-right: 80px!important;
     position:fixed!important;
@@ -198,7 +198,7 @@ const buttonPrep713Prom = document.getElementById('prepararCartel713Prom');
            }
            
 
-           .porcentajeOFF713{
+           .porcentajeOFF913{
             margin-left: 110px;
             line-height: 0.00em;
             color:white;
@@ -207,7 +207,7 @@ const buttonPrep713Prom = document.getElementById('prepararCartel713Prom');
             font-family: 'Open Sans', sans-serif;
            }
 
-           .precioAnterior713{
+           .precioAnterior913{
             color:black;
             
             
@@ -216,7 +216,7 @@ const buttonPrep713Prom = document.getElementById('prepararCartel713Prom');
 
            }
 
-           .precioPromocion713{
+           .precioPromocion913{
             color:rgb(73, 73, 255);
             text-decoration: line-through;
             
@@ -310,30 +310,30 @@ const buttonPrep713Prom = document.getElementById('prepararCartel713Prom');
            
            </style>
            
-           <div id="areaimprimible713">
-            <div class="encabezado"> <div class="porcentaje713Prom"><h2 style="
+           <div id="areaimprimible913">
+            <div class="encabezado"> <div class="porcentaje913Prom"><h2 style="
                 margin-top: 5px;
-            ">${Descuento713Prom4}</h2><div class="porcentajeOFF713"><h3 style="font-size:3rem;margin:0;">%</h3><h3>OFF</h3></div></div>
+            ">${Descuento913Prom4}</h2><div class="porcentajeOFF913"><h3 style="font-size:3rem;margin:0;">%</h3><h3>OFF</h3></div></div>
              
                          <div class="triangulo-equilatero-bottom"></div></div>
     
              <div id="funcional">
-             <div id="descripcion"><h3>${Descripcion713Prom4}
+             <div id="descripcion"><h3>${Descripcion913Prom4}
              </h3></div>
              <div id="precio" style="
              margin-top: 10px;
-         "><div><p >Precio Anterior</p><h4 class="precioAnterior713" style="
+         "><div><p >Precio Anterior</p><h4 class="precioAnterior913" style="
                 margin-bottom: 0px;
-            " >$${Precio713Prom4}</h4></div>
-                <div><p style="color:rgb(73, 73, 255);">Precio Promoción</p><h4 class="precioPromocion713" style="
+            " >$${Precio913Prom4}</h4></div>
+                <div><p style="color:rgb(73, 73, 255);">Precio Promoción</p><h4 class="precioPromocion913" style="
                     margin-bottom: 0px;
-                ">$${precioProm7134}</h4></div></div>       
-             <div id="master"><h5>Master ${Master713Prom4}</h5></div>
+                ">$${precioProm9134}</h4></div></div>       
+             <div id="master"><h5>Master ${Master913Prom4}</h5></div>
         </div>
      </div>
 
                `
-               impresProm713.appendChild(crearDivProm713);
+               impresProm913.appendChild(crearDivProm913);
             
                   
                 }
@@ -342,5 +342,5 @@ const buttonPrep713Prom = document.getElementById('prepararCartel713Prom');
                     alert('Hola');
                 }
              
-                buttonPrep713Prom.addEventListener('click', quitarDatos713Prom );
+                buttonPrep913Prom.addEventListener('click', quitarDatos913Prom );
 
