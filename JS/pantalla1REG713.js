@@ -527,7 +527,7 @@ const buttonPrep713Reg = document.getElementById('prepararCartel713Reg');
                align-items: center;
                justify-content: center;
                z-index:3;
-               margin-left: 80px;
+              margin-left:20px;
 
            }
            
