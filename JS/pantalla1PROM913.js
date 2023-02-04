@@ -66,7 +66,7 @@ const buttonPrep913Prom = document.getElementById('prepararCartel913Prom');
      "><div><p >Precio Anterior</p><h4 class="precioAnterior913" style="
             margin-bottom: 0px;
         " >$${Precio913Prom1}</h4></div>
-            <div><p style="color:rgb(73, 73, 255);">Precio Promoción</p><h4 class="precioPromocion913" style="
+            <div><p style="color:rgb(73, 73, 255);">Precio Ahora</p><h4 class="precioPromocion913" style="
                 margin-bottom: 0px;
             ">$${precioProm913}</h4></div></div>       
          <div id="master"><h5>Master ${Master913Prom1}</h5></div>
@@ -90,7 +90,7 @@ const buttonPrep913Prom = document.getElementById('prepararCartel913Prom');
          "><div><p>Precio Anterior</p><h4 class="precioAnterior913" style="
                 margin-bottom: 0px;
             " >$${Precio913Prom2}</h4></div>
-                <div><p style="color:rgb(73, 73, 255);">Precio Promoción</p><h4 class="precioPromocion913" style="
+                <div><p style="color:rgb(73, 73, 255);">Precio Ahora</p><h4 class="precioPromocion913" style="
                     margin-bottom: 0px;
                 ">$${precioProm9132}</h4></div></div>       
              <div id="master"><h5>Master ${Master913Prom2}</h5></div>
@@ -125,7 +125,7 @@ const buttonPrep913Prom = document.getElementById('prepararCartel913Prom');
          "><div><p>Precio Anterior</p><h4 class="precioAnterior913" style="
                 margin-bottom: 0px;
             " >$${Precio913Prom3}</h4></div>
-                <div><p style="color:rgb(73, 73, 255);">Precio Promoción</p><h4 class="precioPromocion913" style="
+                <div><p style="color:rgb(73, 73, 255);">Precio Ahora</p><h4 class="precioPromocion913" style="
                     margin-bottom: 0px;
                 ">$${precioProm9133}</h4></div></div>       
              <div id="master"><h5>Master ${Master913Prom3}</h5></div>
@@ -209,6 +209,8 @@ const buttonPrep913Prom = document.getElementById('prepararCartel913Prom');
 
            .precioAnterior913{
             color:black;
+            text-decoration: line-through;
+
             
             
     margin-top: 10px;
@@ -218,7 +220,6 @@ const buttonPrep913Prom = document.getElementById('prepararCartel913Prom');
 
            .precioPromocion913{
             color:rgb(73, 73, 255);
-            text-decoration: line-through;
             
     margin-top: 10px;
 
@@ -325,7 +326,7 @@ const buttonPrep913Prom = document.getElementById('prepararCartel913Prom');
          "><div><p >Precio Anterior</p><h4 class="precioAnterior913" style="
                 margin-bottom: 0px;
             " >$${Precio913Prom4}</h4></div>
-                <div><p style="color:rgb(73, 73, 255);">Precio Promoción</p><h4 class="precioPromocion913" style="
+                <div><p style="color:rgb(73, 73, 255);">Precio Ahora</p><h4 class="precioPromocion913" style="
                     margin-bottom: 0px;
                 ">$${precioProm9134}</h4></div></div>       
              <div id="master"><h5>Master ${Master913Prom4}</h5></div>
