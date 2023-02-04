@@ -209,6 +209,8 @@ const buttonPrep713Prom = document.getElementById('prepararCartel713Prom');
 
            .precioAnterior713{
             color:black;
+           text-decoration: line-through;
+
             
             
     margin-top: 10px;
@@ -218,7 +220,6 @@ const buttonPrep713Prom = document.getElementById('prepararCartel713Prom');
 
            .precioPromocion713{
             color:rgb(73, 73, 255);
-            text-decoration: line-through;
             
     margin-top: 10px;
 
