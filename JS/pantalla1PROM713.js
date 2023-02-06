@@ -191,7 +191,7 @@ const buttonPrep713Prom = document.getElementById('prepararCartel713Prom');
            .porcentaje713Prom h2{
               
     margin-right: 80px!important;
-    position:fixed!important;
+
     margin-left: 20px;
 
 
