@@ -140,7 +140,7 @@ const buttonPrep713Reg = document.getElementById('prepararCartel713Reg');
         color:rgb(73, 73, 255);
         font-family: 'Open Sans', sans-serif;
         font-weight:700; 
-        font-size:1.5rem;
+        font-size:3rem;
         align-items: center;
         justify-content: center;
     }
@@ -277,7 +277,7 @@ const buttonPrep713Reg = document.getElementById('prepararCartel713Reg');
            color:rgb(73, 73, 255);
            font-family: 'Open Sans', sans-serif;
            font-weight:700; 
-           font-size:1.5rem;
+           font-size:3rem;
            align-items: center;
            justify-content: center;
        }
@@ -415,7 +415,7 @@ const buttonPrep713Reg = document.getElementById('prepararCartel713Reg');
             color:rgb(73, 73, 255);
             font-family: 'Open Sans', sans-serif;
             font-weight:700; 
-            font-size:1.5rem;
+            font-size:3rem;
             align-items: center;
             justify-content: center;
         }
@@ -527,7 +527,7 @@ const buttonPrep713Reg = document.getElementById('prepararCartel713Reg');
                align-items: center;
                justify-content: center;
                z-index:3;
-               margin-left: 80px;
+              margin-left:20px;
 
            }
            
@@ -542,7 +542,7 @@ const buttonPrep713Reg = document.getElementById('prepararCartel713Reg');
                color:rgb(73, 73, 255);
                font-family: 'Open Sans', sans-serif;
                font-weight:700; 
-               font-size:1.5rem;
+               font-size:3rem;
                align-items: center;
                justify-content: center;
            }

@@ -528,7 +528,16 @@
   <input id="numbersInp" type="number">
   <button id="crearInputs" class="btn btn-primary">Crear Entradas</button>
 </div>
-
+   <!--Recarga con esc-->
+    <script>
+    document.addEventListener('keydown', (event) => {
+     if (event.keyCode == 27) {
+         location.reload();
+  }
+}, false);
+    </script>
+      
+     <!--Recarga con esc-->
  
     <!-- Optional JavaScript; choose one of the two! -->
 
